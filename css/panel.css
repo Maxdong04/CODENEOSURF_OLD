@@ -1,0 +1,137 @@
+body{margin: 0px; font-family: sans-serif; background: #eff4f5; }
+
+.top{overflow: auto; border-bottom: solid 1px #e1eaec; background: white; position: fixed; width: 100%;}
+.top h1{margin: 0px; float: left; width: 315px;}
+.top h1 a{padding: 15px; background: url(../img/logo.png) no-repeat 15px 10px ; background-size:auto 65%; display: block; text-align: center; font-size: 0px; height: 44px; }
+
+.sepa{height: 75px;}
+
+.allop{overflow:auto; margin-bottom:20px;}
+.allop a{display:block; padding:10px; background:white; border:solid 1px #627993; border-radius:3px; text-decoration:none; float:left; color:#627993; font-weight:bold; cursor:pointer;}
+.pop2{ display:none; position:fixed; height:100%; width:100%; background:url(../img/seem.png); z-index:32; }
+.pop2 .pop2in{ padding-top:100px; }
+.pop2 .pop_tuto{ background:white; height:400px; text-align:center; }
+.pop2 .pop_tuto b{ display:block; padding:20px; color:#627993; }
+
+.showroom{background:; height:260px;}
+.deldel{padding:15px; font-size:13px; border:solid 1px red; background:#fff9f9; }
+
+.nextpoint{width:220px; margin:auto; background:; padding-top:20px; overflow:auto;}
+.nextpoint span{ font-weight:bold; display:block; float:left; margin-right:17px; margin-left:17px; border:solid 1px #627993; background:; color:#627993; padding:7px; border-radius:20px; width:20px; text-align:center; }
+.nextpoint #tuto1{ background:#627993; color:white; }
+
+.top .seekbox{float: left; padding: 20px;}
+.top .seekbox input{padding: 7px; border: solid 1px #bcd1d6; border-radius: 3px; margin-right: 5px; background: #eff4f5;}
+.top .seekbox .sub{padding: 6px; background: #006caf; border-radius: 3px; color: white; border: solid 1px #006caf; margin-right: 0px;}
+
+.slide{ padding: 20px; padding-bottom: 0px; }
+.slide .slidein{width: 1000px; margin: auto; background:; height: 150px; background: url(../img/slide.png) no-repeat center top; background-size:100%;}
+
+.descrip{ padding: 20px; padding-bottom: 0px; }
+.descrip .descripin{width: 1000px; margin: auto; background: white; border: solid 1px #bcd1d6; border-radius: 3px;}
+.descrip .descripin h2{padding: 10px; margin: 0px; color: white; background: #627993;}
+.descrip .descripin h2 span{font-size: 12px; }
+.descrip .descripin p{padding: 20px; margin: 0px; color: #535c64; font-size: 14px;}
+
+.welcome{ padding: 20px; padding-bottom: 0px; }
+.welcome .welcomein{width: 1000px; margin: auto; background: #f0fbd9; border: solid 1px #98da10; border-radius: 3px;}
+.welcome .welcomein p{padding: 20px; margin: 0px; color: #535c64; font-size: 14px; overflow:auto; }
+.welcome .welcomein b{ color: #98da10; font-size: 18px;}
+
+.code{ padding: 20px; }
+.code .codein{width: 1000px; margin: auto; border-radius: 3px; overflow: auto;}
+.code .codein .left{float: left; width: 50%;}
+.code .codein .lefa{margin-bottom: 15px;}
+.code .codein .left p{ margin: 0px; font-size: 12px; padding-bottom: 15px;}
+.code .codein .left .thumb{overflow: auto;}
+.code .codein .left h3{padding: 15px; margin: 0px; color: white; background: #627993; float: left;}
+.code .codein .left .in{padding: 20px; margin: 0px; color: #535c64; background: white; border: solid 1px #bcd1d6; border-radius: 3px; }
+.code .codein .left .in .codex{overflow:auto;}
+.code .codein .left .in .codex a{ display: block; border-radius: 3px; margin-bottom: 15px; text-decoration: none; font-weight: bold; cursor:pointer; float:left; width:212px; margin-right:7.5px; margin-left:7.5px; font-size:14px; border-radius:7px;}
+.code .codein .left .in .codex a span{ display:block; padding:10px; border: solid 1px #eee9df;}
+
+.code .codein .right{ float: left; width: 50%;}
+.code .codein .right .sinup{ padding-left: 20px;}
+.code .codein .right .sinup .form{ background: #dee9eb; border-radius: 3px; overflow: hidden; margin-bottom: 15px;}
+.code .codein .right .sinup .form h3{ margin: 0px; padding: 15px; background: #006caf; color: white;}
+.code .codein .right .sinup .form .inpux{ padding: 20px;}
+.code .codein .right .sinup .form p{ padding: 20px; margin: 0px; font-size: 12px; padding-bottom: 0px;}
+.code .codein .right .sinup .form .inpux input{ padding: 9px; width: 94%; margin-bottom: 15px; border: solid 1px silver; border-radius: 3px;}
+.code .codein .right .sinup .form .inpux .ent{ overflow: auto;}
+.code .codein .right .sinup .form .inpux .nom{ padding: 9px; width:42%; float: left;}
+.code .codein .right .sinup .form .inpux .prenom{ padding: 9px; width:42%; float: right;}
+.code .codein .right .sinup .form .inpux .sub{ background: #98da10; border: solid 1px #89c40f; color: white; font-weight: bold; font-family: arial; width:99%; }
+.code .codein .right .sinup .form .codelist{ background: white;  }
+.code .codein .right .sinup .form .codelist table { padding:10px; width:100%; }
+.code .codein .right .sinup .form .codelist table td{ background: #f1f7f8; padding:10px; font-size:12px; }
+.code .codein .right .sinup .form .codelist table td b{ color:#627993;}
+.code .codein .right .sinup .form .codelist table td span{ color:#657c96; font-size:10px;}
+
+.code .codein .right .sinup .form strong{ display: block; padding-top: 8px; color: #627993; }
+
+.lefa .seekbox{ padding-bottom: 15px;}
+.lefa .seekbox input{padding: 7px; border: solid 1px #bcd1d6; border-radius: 3px; margin-right: 5px; background: #eff4f5;}
+.lefa .seekbox .sub{padding: 6px; background: #006caf; border-radius: 3px; color: white; border: solid 1px #006caf; margin-right: 0px;}
+
+.parte{ background: #f1f8f8; padding: 20px; border-top: solid 1px #d0e6e8;}
+.partein{overflow:auto; width: 1000px; margin: auto; }
+.partein b{ color:#627993; }
+.partein p{ color:gray; font-size:15px; }
+.partein span{ color: #778ca4; font-size: 12px; }
+
+.foot{ background: white; padding: 20px; border-top: solid 1px #eff4f5; }
+.footin{ width: 1000px; margin: auto;  overflow: auto;}
+.footin strong{ display: block; float: right; text-align: right; padding-top: 15px; color: #bcbcbc; font-size: 14px;}
+
+.chatzone{position: fixed;  width: 310px; background: white; border: solid 1px #006caf; bottom: 0px; right: 0px; display: none;}
+.chatzone .in h4{margin: 0px; padding: 15px; background: url(../img/chat.png) no-repeat 10px ; background-size:auto 60%; padding-left: 60px; border-bottom: solid 1px #d0e6e8;}
+.chatzone .in p{margin: 0px; padding: 15px; font-size: 11px; }
+.chatzone .in .put{padding: 15px; padding-top: 0px; }
+.chatzone .in .put input{padding: 6px; width: 93%; background: #d0e6e8; border: solid 1px #b3d6d9; }
+.chatzone .in .thischat{height: 100px; background: #f1f8f8; padding: 15px; overflow: auto; }
+.chatzone .in .thischat .line{ overflow: auto; }
+.chatzone .in .line b{border:solid 1px #adc9d1; background: white; font-size: 12px; padding: 12px; display: block; border-radius: 10px; margin-bottom: 15px; float: left;}
+
+.chatzone .in .post{padding: 15px; }
+.chatzone .in .post input{padding: 9px; width: 93%; background: url(../img/post.png) no-repeat center right; background-size:auto 40%; border:solid 1px silver; }
+.chatzone .pli{ overflow:auto;}
+.chatzone .pli b{ height:30px; font-size:22px; margin-right:15px; display:block; background: url(../img/red.png) no-repeat center center #627993; background-size:auto 50%; padding:3px; color:white; font-weight:bold; float:right; width:30px; text-align:center; border-radius:4px 4px 0px 0px ; cursor:pointer;}
+
+.exist{padding:10px; font-size:13px; border:solid 1px #ff6262; background:#fff2f2; margin-top:10px; color:#f90000; text-align:center;}
+.loggedin{ padding:19px; padding-bottom:0px; position:fixed; right:0px;}
+.loggedin b{display:block; padding:10px; font-size:12px; text-transform:lowercase; padding-left:38px; background:url(../img/user.png) no-repeat 6px 6px; background-size:21px; color:#006caf; border:solid 1px #bad1d6; border-radius:2px; cursor:pointer; }
+.loggedin .seeting{ display:none; position:absolute; background:white; font-size:12px; width:84.5%; float:right; border:solid 1px #bad1d6; border-radius:2px; border-top:0px;}
+.loggedin .seeting a{display:block; padding:10px; border-top:solid 1px #eff4f5; text-decoration:none; color:#006caf;}
+
+.mens{}
+.mens a{ color:#006caf; font-weight:bold; display:block; padding:15px; border-radius:3px; border:solid 1px #c8dadd; text-decoration:none; margin-bottom:12px; padding-left:45px; cursor:pointer;} 
+
+.pop{ display:none; position:fixed; height:100%; width:100%; background:url(../img/seem.png); z-index:10; }
+.pop .popin{padding:28px;}
+.pop .popin .popac{width:400px; background:white; margin:auto; border-radius:4px; overflow:hidden; }
+.pop .popin .popac .tit{ padding:20px; background:#e3edee; color:#006caf; font-weight:bold; }
+.pop .popin .popac .pcc{ padding:20px; }
+.pop .popin .popac .pcc a{padding: 20px; display: block; border-radius: 3px; margin-bottom: 15px; text-decoration: none; padding-left: 85px; font-weight: bold;}
+.pop .popin .popac .pcc .ipp{padding: 7px; border: solid 1px #bcd1d6; border-radius: 3px; margin-right: 5px; background: #eff4f5; width:110px;}
+.pop .popin .popac .pcc .subs{padding: 6px; background: #006caf; border-radius: 3px; color: white; border: solid 1px #006caf; margin-right: 0px;}
+
+.pop .popin .popac .pcc p{font-size:13px;}
+.pop .popin .popac .pcc .process{overflow:auto;}
+.pop .popin .popac .pcc .process input{width:48%; padding:10px; font-family:arial; font-weight:bold; border-radius:3px; }
+.pop .popin .popac .pcc .process #valo{float:left; background:#98da10; color:white; border:solid 1px #8bc80f; }
+.pop .popin .popac .pcc .process #rest{float:right; background:#f0f0f0; color:gray; border:solid 1px silver; }
+
+.push{padding:15px;}
+.push_not{ margin-bottom:10px;}
+.push_not .titleb{ padding:10px; border:solid 1px #e1eaec; padding-left:50px; background:url(../ico/chat.png) no-repeat 10px #f2fbff; color:#006caf; font-size:12px; font-weight:bold;}
+.push_not .title{ padding:10px; border:solid 1px #e1eaec; padding-left:50px; background:url(../ico/chat2.png) no-repeat 10px; color:#c4c4c4; font-size:12px;}
+
+.sbmenu{overflow: auto; background: white; }
+.sbmenu .alink{ border-right: solid 1px #F9FBFB; display: block; padding: 15px; text-decoration: none; color: #627993; float: left; font-size: 14px; }
+
+.roun{float: left; width: 48%; margin-right:15px; }
+.tuto em{ display:block; width:20px; padding:10px; border-radius:20px; margin:auto; background:#627993; color:white; margin-bottom:10px;}
+
+.valicomm{padding:20px; background:#F0FBD9; border:solid 1px #98DA10;}
+
+

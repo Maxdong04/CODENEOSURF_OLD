@@ -1,0 +1,1 @@
+﻿<center><img src="src/home.png" style="width:40%;" /></center>

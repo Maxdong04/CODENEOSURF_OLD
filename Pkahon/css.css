@@ -1,0 +1,33 @@
+
+body{background:#eff4f5; margin:0px; font-family:arial; }
+
+.top{background:#627993; overflow:auto; }
+.top a{ cursor:pointer; display:block; padding:15px; float:left; font-size:12px; font-weight:bold; color:white; text-decoration:none; border-right:solid 1px #566a81;}
+
+	a{text-decoration:none;}
+
+.content{padding:20px;}
+.content .window{background:white;}
+.content .window .table{width:100%;}
+.content .window .table td{padding:10px; font-size:13px;}
+.content .window .table td .vad{padding:5px; display:block; background:#98da10; border-radius:3px; text-align:center; color:white; cursor:pointer; }
+.content .window .table td input{width:95%; border:solid 1px silver; border-radius:3px; padding:5px; }
+
+.call_back{margin-top:18px; background:white;}
+.goodcode{padding:20px; background:white; color:#98da10;}
+
+.loading{padding:25px; text-align:center; font-size:14px; color:#758ba4;}
+
+.all_chat{overflow:auto; background:#fbfdfd;}
+.all_chat .leftchat{ width:20%; background:#758ba4; float:left; overflow:auto;}
+.all_chat .leftchat b{ color:white; border-bottom:solid 1px #4d6075; display:block; padding:10px; font-size:13px; }
+
+.all_chat .rightchat{ width:40%; float:left; overflow:auto; }
+.all_chat .rightchat .thischat{ padding:20px; height:300px; overflow-y:auto;}
+.all_chat .rightchat .thischat .pin{ overflow:auto; }
+.all_chat .rightchat .thischat .norm{ float:right;  padding:10px; font-size:12px; background:white; border:solid 1px #566a81; border-radius:20px; display:block; margin-bottom:15px;}
+.all_chat .rightchat .thischat .exter{ float:left; padding:10px; font-size:12px; background:#d5ecf7; border:solid 1px #566a81; border-radius:20px; display:block; margin-bottom:15px;}
+.post{padding: 20px; }
+.post input{padding: 9px; width: 95%; /* background: url(../img/post.png) no-repeat center right; background-size:auto 40%; */ border:solid 1px silver; }
+
+.addlink{padding:15px;}
